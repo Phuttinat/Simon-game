@@ -19,7 +19,7 @@ $(document).keypress(function () {
 
 function nextSequence() {
     userClickPattern = [];
-    var randomNumber = Math.floor((Math.random() * 3) + 1);
+    var randomNumber = Math.floor((Math.random() * 4));
 
     console.log(randomNumber);
     // random number not including the 4.
